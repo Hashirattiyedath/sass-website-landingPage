@@ -1,0 +1,27 @@
+//===== global =====//
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+html {
+    overflow-x: hidden;
+
+    body {
+        width: 100%;
+        font-family: $primary-font;
+        // .container {
+        //      max-width: 1200px;
+        // }
+    }
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $primary-font;
+}
+
+p {
+    font-family: $secondary-font;
+}
